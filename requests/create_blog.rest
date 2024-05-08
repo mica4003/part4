@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hdHRpIEx1dWtrYWluZW4iLCJpZCI6IjY2Mzk5Y2I2ZGRiMWU4NjQxNjBhNWJiNyIsImlhdCI6MTcxNTEyMjQ2OH0.dhW65TEP15fvaPpCmEpEeNqPwBYe8EE04XA1xBc3EJk
+
+{
+    "title": "Only when Token is valid, POST blog request can be made",
+    "author": "Min Cao",
+    "url": "https://example.com/introduction-to-mongodb"
+}
